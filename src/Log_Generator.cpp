@@ -19,7 +19,7 @@ int main(int args, char **argv) {
   for (int i = 1; i < args; i++) {
     messages.push_back(argv[i]);
   }
-  // loop forever
+  // loop forever and log messages
   while (true) {
     // randomly select a message
     int index = rand() % messages.size();
